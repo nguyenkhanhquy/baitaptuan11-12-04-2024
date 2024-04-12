@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentNeworderBinding;
+import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentDanhgiaBinding;
 
 public class DanhGiaFragment extends Fragment {
-    FragmentNeworderBinding binding;
+    FragmentDanhgiaBinding binding;
 
     public DanhGiaFragment() {
 
@@ -29,7 +29,7 @@ public class DanhGiaFragment extends Fragment {
             , @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        binding = FragmentNeworderBinding.inflate(inflater, container, false);
+        binding = FragmentDanhgiaBinding.inflate(inflater, container, false);
 
         //recyclerView
 

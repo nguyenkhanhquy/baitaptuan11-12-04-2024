@@ -9,10 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentCancelBinding;
 import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentNeworderBinding;
 
 public class CancelFragment extends Fragment {
-    FragmentNeworderBinding binding;
+    FragmentCancelBinding binding;
 
     public CancelFragment() {
 
@@ -29,7 +30,7 @@ public class CancelFragment extends Fragment {
             , @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        binding = FragmentNeworderBinding.inflate(inflater, container, false);
+        binding = FragmentCancelBinding.inflate(inflater, container, false);
 
         //recyclerView
 

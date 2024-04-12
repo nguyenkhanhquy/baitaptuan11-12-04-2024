@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.menuBroadcast) {
             Toast.makeText(this, "Bạn đang chọn phát sóng", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.menuWeb) {
-            Toast.makeText(this, "Bạn đang chọn web", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Bạn đang chọn WhatsApp web", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.menuMessage) {
             Toast.makeText(this, "Bạn đang chọn tin nhắn", Toast.LENGTH_SHORT).show();
         }

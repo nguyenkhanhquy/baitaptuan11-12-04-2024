@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentNeworderBinding;
+import vn.iotstar.baitaptuan11_21110282_fragmenttablayoutviewpager2.databinding.FragmentPickupBinding;
 
 public class PickupFragment extends Fragment {
-    FragmentNeworderBinding binding;
+    FragmentPickupBinding binding;
 
     public PickupFragment() {
 
@@ -29,7 +29,7 @@ public class PickupFragment extends Fragment {
             , @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        binding = FragmentNeworderBinding.inflate(inflater, container, false);
+        binding = FragmentPickupBinding.inflate(inflater, container, false);
 
         //recyclerView
 

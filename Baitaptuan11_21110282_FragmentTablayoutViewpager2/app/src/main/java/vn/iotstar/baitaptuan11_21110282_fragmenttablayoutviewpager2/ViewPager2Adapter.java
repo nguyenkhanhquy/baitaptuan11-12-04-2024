@@ -15,8 +15,6 @@ public class ViewPager2Adapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         switch (position) {
-            case 0:
-                return new NewOrderFragment();
             case 1:
                 return new PickupFragment();
             case 2:
